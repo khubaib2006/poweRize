@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.2s linear;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #000;
+}
+
+.btn {
+    margin-top: 32px;
+    width: 150px;
+    padding: 12px;
+    color: #fff;
+    background: tomato;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.btn:hover {
+    background: rgba(212, 48, 48, 0.76);
+    transition: 0.4s;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 24px 8%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.header .logo {
+    font-size: 22px;
+    font-weight: bolder;
+    color: #fff;
+    padding-right: 10px;
+    margin-right: 320px;
+}
+
+.header .logo i {
+    color: #fff;
+    padding: 8px;
+    display: flex;
+}
+
+.header .navbar a {
+    font-size: 17.6px;
+    margin: 8px;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.header .navbar a:hover {
+    color: #baa6cf;
+}
+
+.header.btn {
+    background: transparent;
+    color: tomato;
+    border: 1px solid tomato;
+    font-size: 12px;
+    padding: 8px;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+section {
+    padding: 50px 0 50px 0;
+}
+
+.home {
+    display: flex;
+}
+
+.home .max-width {
+    width: 100%;
+    display: flex;
+}
+
+.home .home-content {
+    width: 50%;
+    padding: 32px;
+    flex-wrap: wrap;
+}
+
+.home h3 {
+    color: #fff;
+    margin-top: 96px;
+    font-size: 80px;
+    font-family: 'philosopher', sans-serif;
+}
+
+.home p {
+    color: rgb(194, 191, 191);
+    margin-top: 16px;
+    font-size: 12px;
+
+}
+
+.home .home-image {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.home .home-content img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+}
+
+.sec .text {
+    margin-top: 0;
+    padding-top: 50px;
+    color: rgb(236, 151, 151);
+    font-size: 45px;
+    width: 100%;
+    background-color: rgb(15, 2, 2);
+    margin: 0;
+    font-weight: bold;
+    font-family: 'philosopher', sans-serif;;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+
+.program {
+    display: grid;
+    padding-top: 50px;
+    background-color: rgb(15, 2, 2);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+}
+
+.program .img {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'philosopher', sans-serif;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.programs {
+    display: grid;
+    padding-top: 50px;
+    background-color: rgb(15, 2, 2);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+}
+
+.programs .ig {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'philosopher', sans-serif;
+    color: white;
+} 
+
+.first {
+    display: flex;
+    justify-content: left;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: left;
+    align-items: left;
+
+}
+
+
+
+.secImg {
+    position: relative;
+
+}
+
+.secImg img {
+    width: 420px;
+    position: relative;
+    z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+    .header{
+        flex-wrap: wrap;
+    }
+    .header .navbar a{
+        flex-wrap: wrap;
+    }
+    .home .home-image{
+        flex-wrap: wrap;
+    }
+    .home .home-content img{
+        flex-wrap: wrap;
+    }
+    .btn{
+        flex-wrap: wrap;
+    }
+    .home .max-width {
+        flex-wrap: wrap;
+    }
+    .first{
+        flex-wrap: wrap;
+    }
+  }
+
